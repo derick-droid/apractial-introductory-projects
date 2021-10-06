@@ -3,17 +3,11 @@
 # from left to right and top to bottom, but are all done mod 10. Below are examples of a 3 × 5
 # rectangle and a 4 × 8 .
 
-# for i in range(3):
-#     for x in range(5):
-#         print("x", end=" ")
-#     print()
+width = eval(input("Enter Width: "))
+height = eval(input("Enter Height: "))
 
-x = eval(input('jumlah kolom'))
-y = eval(input('jumlah barisan '))
-z = -1
-for i in range(1, x+1):
-    for j in range(1, y + 1):
-        z = (z + 1) % 10
-        print(z, end=' ')
-
-    print(' ')
+for i in range(0, width*height, 1):
+    print("")
+    for j in range(0+i, width+i, 1):
+        print(j % 10, end="")
+        
