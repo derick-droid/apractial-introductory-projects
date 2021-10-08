@@ -1,0 +1,5 @@
+"""
+methods associated with strings
+
+"""
+
