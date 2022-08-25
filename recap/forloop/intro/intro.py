@@ -38,6 +38,15 @@ def loop():
     for x in range(5):
         print("D")
     print("E")
+
+    #  example program that counts down from 5 and then prints a message
+    for i in range(5, 2, -1):
+        print(i)
+    # trickier example
+    for i in range(6):
+        print("*" * i)
+    for i in range(6):
+        print("*" * 5)
     return True
 
 
